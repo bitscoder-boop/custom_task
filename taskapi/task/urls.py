@@ -5,3 +5,6 @@ from .import views
 
 router = routers.DefaultRouter()
 router.register(r'', views.UserViewSets)
+
+
+urlpatterns = router.urls
