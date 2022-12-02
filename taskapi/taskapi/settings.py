@@ -128,8 +128,8 @@ MEDIA_URL = '/media/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-if os.environ.get("SERVER_TYPE") == "production":
-    # give production settings
-    DEBUG = False
-    SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY")
-    ALLOWED_HOSTS = ['someallowedhost']
+# if os.environ.get("SERVER_TYPE") == "production":
+#     # give production settings
+#     DEBUG = False
+#     SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY")
+#     ALLOWED_HOSTS = ['someallowedhost']
